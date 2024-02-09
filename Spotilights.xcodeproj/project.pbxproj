@@ -1,0 +1,592 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C21766892B76EB9800593990 /* SpotilightsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C21766882B76EB9800593990 /* SpotilightsApp.swift */; };
+		C217668B2B76EB9800593990 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C217668A2B76EB9800593990 /* ContentView.swift */; };
+		C217668D2B76EB9800593990 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = C217668C2B76EB9800593990 /* Item.swift */; };
+		C217668F2B76EB9B00593990 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C217668E2B76EB9B00593990 /* Assets.xcassets */; };
+		C21766922B76EB9B00593990 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C21766912B76EB9B00593990 /* Preview Assets.xcassets */; };
+		C217669D2B76EB9B00593990 /* SpotilightsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C217669C2B76EB9B00593990 /* SpotilightsTests.swift */; };
+		C21766A72B76EB9B00593990 /* SpotilightsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C21766A62B76EB9B00593990 /* SpotilightsUITests.swift */; };
+		C21766A92B76EB9B00593990 /* SpotilightsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C21766A82B76EB9B00593990 /* SpotilightsUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C21766992B76EB9B00593990 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C217667D2B76EB9800593990 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C21766842B76EB9800593990;
+			remoteInfo = Spotilights;
+		};
+		C21766A32B76EB9B00593990 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C217667D2B76EB9800593990 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C21766842B76EB9800593990;
+			remoteInfo = Spotilights;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C21766852B76EB9800593990 /* Spotilights.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Spotilights.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C21766882B76EB9800593990 /* SpotilightsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotilightsApp.swift; sourceTree = "<group>"; };
+		C217668A2B76EB9800593990 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C217668C2B76EB9800593990 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		C217668E2B76EB9B00593990 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C21766912B76EB9B00593990 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C21766932B76EB9B00593990 /* Spotilights.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Spotilights.entitlements; sourceTree = "<group>"; };
+		C21766982B76EB9B00593990 /* SpotilightsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpotilightsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C217669C2B76EB9B00593990 /* SpotilightsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotilightsTests.swift; sourceTree = "<group>"; };
+		C21766A22B76EB9B00593990 /* SpotilightsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpotilightsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C21766A62B76EB9B00593990 /* SpotilightsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotilightsUITests.swift; sourceTree = "<group>"; };
+		C21766A82B76EB9B00593990 /* SpotilightsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotilightsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C21766822B76EB9800593990 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C21766952B76EB9B00593990 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C217669F2B76EB9B00593990 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C217667C2B76EB9800593990 = {
+			isa = PBXGroup;
+			children = (
+				C21766872B76EB9800593990 /* Spotilights */,
+				C217669B2B76EB9B00593990 /* SpotilightsTests */,
+				C21766A52B76EB9B00593990 /* SpotilightsUITests */,
+				C21766862B76EB9800593990 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C21766862B76EB9800593990 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C21766852B76EB9800593990 /* Spotilights.app */,
+				C21766982B76EB9B00593990 /* SpotilightsTests.xctest */,
+				C21766A22B76EB9B00593990 /* SpotilightsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C21766872B76EB9800593990 /* Spotilights */ = {
+			isa = PBXGroup;
+			children = (
+				C21766882B76EB9800593990 /* SpotilightsApp.swift */,
+				C217668A2B76EB9800593990 /* ContentView.swift */,
+				C217668C2B76EB9800593990 /* Item.swift */,
+				C217668E2B76EB9B00593990 /* Assets.xcassets */,
+				C21766932B76EB9B00593990 /* Spotilights.entitlements */,
+				C21766902B76EB9B00593990 /* Preview Content */,
+			);
+			path = Spotilights;
+			sourceTree = "<group>";
+		};
+		C21766902B76EB9B00593990 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C21766912B76EB9B00593990 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C217669B2B76EB9B00593990 /* SpotilightsTests */ = {
+			isa = PBXGroup;
+			children = (
+				C217669C2B76EB9B00593990 /* SpotilightsTests.swift */,
+			);
+			path = SpotilightsTests;
+			sourceTree = "<group>";
+		};
+		C21766A52B76EB9B00593990 /* SpotilightsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C21766A62B76EB9B00593990 /* SpotilightsUITests.swift */,
+				C21766A82B76EB9B00593990 /* SpotilightsUITestsLaunchTests.swift */,
+			);
+			path = SpotilightsUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C21766842B76EB9800593990 /* Spotilights */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C21766AC2B76EB9B00593990 /* Build configuration list for PBXNativeTarget "Spotilights" */;
+			buildPhases = (
+				C21766812B76EB9800593990 /* Sources */,
+				C21766822B76EB9800593990 /* Frameworks */,
+				C21766832B76EB9800593990 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Spotilights;
+			productName = Spotilights;
+			productReference = C21766852B76EB9800593990 /* Spotilights.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C21766972B76EB9B00593990 /* SpotilightsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C21766AF2B76EB9B00593990 /* Build configuration list for PBXNativeTarget "SpotilightsTests" */;
+			buildPhases = (
+				C21766942B76EB9B00593990 /* Sources */,
+				C21766952B76EB9B00593990 /* Frameworks */,
+				C21766962B76EB9B00593990 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C217669A2B76EB9B00593990 /* PBXTargetDependency */,
+			);
+			name = SpotilightsTests;
+			productName = SpotilightsTests;
+			productReference = C21766982B76EB9B00593990 /* SpotilightsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C21766A12B76EB9B00593990 /* SpotilightsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C21766B22B76EB9B00593990 /* Build configuration list for PBXNativeTarget "SpotilightsUITests" */;
+			buildPhases = (
+				C217669E2B76EB9B00593990 /* Sources */,
+				C217669F2B76EB9B00593990 /* Frameworks */,
+				C21766A02B76EB9B00593990 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C21766A42B76EB9B00593990 /* PBXTargetDependency */,
+			);
+			name = SpotilightsUITests;
+			productName = SpotilightsUITests;
+			productReference = C21766A22B76EB9B00593990 /* SpotilightsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C217667D2B76EB9800593990 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					C21766842B76EB9800593990 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					C21766972B76EB9B00593990 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = C21766842B76EB9800593990;
+					};
+					C21766A12B76EB9B00593990 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = C21766842B76EB9800593990;
+					};
+				};
+			};
+			buildConfigurationList = C21766802B76EB9800593990 /* Build configuration list for PBXProject "Spotilights" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C217667C2B76EB9800593990;
+			productRefGroup = C21766862B76EB9800593990 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C21766842B76EB9800593990 /* Spotilights */,
+				C21766972B76EB9B00593990 /* SpotilightsTests */,
+				C21766A12B76EB9B00593990 /* SpotilightsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C21766832B76EB9800593990 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C21766922B76EB9B00593990 /* Preview Assets.xcassets in Resources */,
+				C217668F2B76EB9B00593990 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C21766962B76EB9B00593990 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C21766A02B76EB9B00593990 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C21766812B76EB9800593990 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C217668B2B76EB9800593990 /* ContentView.swift in Sources */,
+				C217668D2B76EB9800593990 /* Item.swift in Sources */,
+				C21766892B76EB9800593990 /* SpotilightsApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C21766942B76EB9B00593990 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C217669D2B76EB9B00593990 /* SpotilightsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C217669E2B76EB9B00593990 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C21766A72B76EB9B00593990 /* SpotilightsUITests.swift in Sources */,
+				C21766A92B76EB9B00593990 /* SpotilightsUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C217669A2B76EB9B00593990 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C21766842B76EB9800593990 /* Spotilights */;
+			targetProxy = C21766992B76EB9B00593990 /* PBXContainerItemProxy */;
+		};
+		C21766A42B76EB9B00593990 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C21766842B76EB9800593990 /* Spotilights */;
+			targetProxy = C21766A32B76EB9B00593990 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C21766AA2B76EB9B00593990 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C21766AB2B76EB9B00593990 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		C21766AD2B76EB9B00593990 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Spotilights/Spotilights.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Spotilights/Preview Content\"";
+				DEVELOPMENT_TEAM = F57TGW3UDL;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tofi.Spotilights;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		C21766AE2B76EB9B00593990 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Spotilights/Spotilights.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Spotilights/Preview Content\"";
+				DEVELOPMENT_TEAM = F57TGW3UDL;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tofi.Spotilights;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		C21766B02B76EB9B00593990 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F57TGW3UDL;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tofi.SpotilightsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Spotilights.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Spotilights";
+			};
+			name = Debug;
+		};
+		C21766B12B76EB9B00593990 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F57TGW3UDL;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tofi.SpotilightsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Spotilights.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Spotilights";
+			};
+			name = Release;
+		};
+		C21766B32B76EB9B00593990 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F57TGW3UDL;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tofi.SpotilightsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = Spotilights;
+			};
+			name = Debug;
+		};
+		C21766B42B76EB9B00593990 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F57TGW3UDL;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tofi.SpotilightsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = Spotilights;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C21766802B76EB9800593990 /* Build configuration list for PBXProject "Spotilights" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C21766AA2B76EB9B00593990 /* Debug */,
+				C21766AB2B76EB9B00593990 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C21766AC2B76EB9B00593990 /* Build configuration list for PBXNativeTarget "Spotilights" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C21766AD2B76EB9B00593990 /* Debug */,
+				C21766AE2B76EB9B00593990 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C21766AF2B76EB9B00593990 /* Build configuration list for PBXNativeTarget "SpotilightsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C21766B02B76EB9B00593990 /* Debug */,
+				C21766B12B76EB9B00593990 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C21766B22B76EB9B00593990 /* Build configuration list for PBXNativeTarget "SpotilightsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C21766B32B76EB9B00593990 /* Debug */,
+				C21766B42B76EB9B00593990 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C217667D2B76EB9800593990 /* Project object */;
+}
